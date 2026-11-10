@@ -1,18 +1,18 @@
 # Written Words
 
-Obsidian-plugin die telt hoeveel woorden je zelf typt in de mappen die jij kiest. Plakken, templates en tikfoutcorrecties tellen niet mee.
+An Obsidian plugin that counts the words you actually type in the folders you choose. Pasted text, templates and typo corrections are not counted.
 
-## Installeren
+## Installation
 
-Kopieer `main.js`, `manifest.json` en `styles.css` naar `<vault>/.obsidian/plugins/written-words/` en zet de plugin aan onder Instellingen → Community plugins. Zie [HANDLEIDING.md](HANDLEIDING.md) voor een stap-voor-stap uitleg.
+Copy `main.js`, `manifest.json` and `styles.css` to `<vault>/.obsidian/plugins/written-words/` and enable the plugin under Settings → Community plugins. See [HANDLEIDING.md](HANDLEIDING.md) for a step-by-step guide (in Dutch).
 
-## Ontwikkelen
+## Development
 
 ```bash
 npm install
-npm run build    # bouwt main.js
-npm test         # draait de tests
-npm run package  # maakt dist/written-words/
+npm run build    # builds main.js
+npm test         # runs the tests
+npm run package  # creates dist/written-words/
 ```
 
-Het ontwerp en de testscenario's staan in [PLAN.md](PLAN.md).
+The design and test scenarios are described in [PLAN.md](PLAN.md) (in Dutch).
