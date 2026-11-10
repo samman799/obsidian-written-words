@@ -1,0 +1,9 @@
+{
+  "id": "written-words",
+  "name": "Written Words",
+  "version": "0.1.0",
+  "minAppVersion": "1.4.10",
+  "description": "Telt hoeveel woorden je zelf typt in gekozen mappen.",
+  "author": "Sam",
+  "isDesktopOnly": true
+}

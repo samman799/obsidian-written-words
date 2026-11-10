@@ -1,0 +1,140 @@
+.ww-view {
+  padding: var(--size-4-3) var(--size-4-4);
+}
+
+.ww-section {
+  margin-bottom: var(--size-4-6);
+}
+
+.ww-section h4 {
+  margin: 0 0 var(--size-4-2);
+  color: var(--text-muted);
+  font-size: var(--font-ui-smaller);
+  font-weight: var(--font-semibold);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.ww-muted {
+  color: var(--text-muted);
+  font-size: var(--font-ui-small);
+}
+
+.ww-today {
+  display: flex;
+  align-items: baseline;
+  gap: var(--size-2-2);
+}
+
+.ww-big {
+  font-size: 2em;
+  font-weight: var(--font-bold);
+  line-height: 1.1;
+}
+
+.ww-bar {
+  height: 8px;
+  margin: var(--size-4-2) 0;
+  border-radius: 4px;
+  background: var(--background-modifier-border);
+  overflow: hidden;
+}
+
+.ww-bar-fill {
+  height: 100%;
+  width: 0;
+  border-radius: 4px;
+  background: var(--interactive-accent);
+  transition: width 0.3s ease;
+}
+
+.ww-bar-fill.is-done {
+  background: var(--color-green);
+}
+
+.ww-periods {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--size-4-3);
+}
+
+.ww-stat-value {
+  font-size: var(--font-ui-larger);
+  font-weight: var(--font-semibold);
+}
+
+.ww-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--font-ui-small);
+}
+
+.ww-table th {
+  text-align: right;
+  color: var(--text-muted);
+  font-weight: var(--font-normal);
+  padding: var(--size-2-1) var(--size-2-2);
+  border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.ww-table td {
+  text-align: right;
+  padding: var(--size-2-2);
+  font-variant-numeric: tabular-nums;
+}
+
+.ww-table th:first-child,
+.ww-table td:first-child {
+  text-align: left;
+  word-break: break-all;
+}
+
+.ww-heatmap-wrap {
+  overflow-x: auto;
+  padding-bottom: var(--size-2-2);
+}
+
+.ww-heatmap {
+  display: block;
+}
+
+.ww-heat-label {
+  fill: var(--text-muted);
+  font-size: 9px;
+}
+
+.ww-heat-cell {
+  fill: var(--interactive-accent);
+}
+
+.ww-heat-0 {
+  fill: var(--background-modifier-border);
+}
+
+.ww-heat-1 {
+  fill-opacity: 0.3;
+}
+
+.ww-heat-2 {
+  fill-opacity: 0.55;
+}
+
+.ww-heat-3 {
+  fill-opacity: 0.8;
+}
+
+.ww-heat-4 {
+  fill-opacity: 1;
+}
+
+.ww-heat-cell.is-today {
+  stroke: var(--text-normal);
+  stroke-width: 1px;
+}
+
+.ww-legend {
+  display: flex;
+  align-items: center;
+  gap: var(--size-2-2);
+  margin-top: var(--size-2-2);
+}
